@@ -89,6 +89,7 @@ textarea {
 
    .content-wrapper{
      width: 90%;
+     margin: 50px 0;
    }
 
    /*-----Base Header-Footer Styles-----*/
@@ -98,10 +99,13 @@ footer {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-
 }
 
 /*Header Styles*/
+
+header{
+  padding: 15px 0;
+}
 
 header .content-wrapper {
   display: flex;
@@ -109,10 +113,6 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   margin: 0;
-}
-
-header{
-  padding: 15px 0;
 }
 
 .header-divider {
@@ -139,28 +139,28 @@ footer {
   flex-direction: column;
 }
 
+footer p {
+  margin: 0;
+}
+
 footer .content-wrapper{
   width: 55%;
   margin: 50px 0;
-}
-
-footer p {
-  margin: 0;
 }
 
 footer .contact {
   margin-bottom: 50px;
 }
 
-footer .social-icons p{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 footer .social-icons {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p{
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -230,7 +230,7 @@ margin: 30px 0;
 }
 
 
-/*-----About-Homepage-----*/
+/*-----About-Page-----*/
 
 .mission{
   display: flex;
@@ -250,9 +250,9 @@ margin: 30px 0;
   margin: 0;
 }
 
+/*--------FAQ-Page--------*/
 
-//*-----FAQ-Homepage-----*/
-.faq {
+.faq{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -453,7 +453,7 @@ footer .contact {
 }
 
 footer .copyright {
-  width: ; 
+  width: 100%; 
 }
 
 /* ==========================================================================
