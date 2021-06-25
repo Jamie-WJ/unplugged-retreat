@@ -503,9 +503,11 @@ margin: 30px 0;
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+  
+  
+   /*Tablet General Styles*/
 
 @media only screen and (min-width: 768px) {
-  /*Tablet General Styles*/
 
   .content-wrapper {
     max-width: 640px;
@@ -659,6 +661,10 @@ footer .copyright {
   margin-top: 0;
 }
 
+.map figure {
+  padding-bottom: 46%; 
+}
+
 .contact-section .content-wrapper h2 {
   width: 80%;
 }
@@ -695,9 +701,9 @@ footer .copyright {
       line-height: 1.125;
   }
 }
+  /*Desktop styles*/
 
 @media only screen and (min-width: 1200px) {
-  /*Desktop styles*/
 
   header {
     padding: 15px 0;
@@ -771,6 +777,10 @@ footer .copyright {
       width: 95%;
       font-size: 3em;
    }
+
+   .map figure {
+    padding-bottom: 38%; 
+  }
 
    .contact-content h4 {
     font-size: 1.875em;
