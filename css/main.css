@@ -727,6 +727,7 @@ footer .copyright {
 
   .content-wrapper {
     max-width: 960px;
+    margin-top: 40px;
   }
 
   h2 {
@@ -744,6 +745,12 @@ footer .copyright {
   }
 
     /*Hero Area*/
+
+  .hero-area {
+    min-height: 680px;
+    }
+
+
   .hero-area h1 {
     font-size: 3.75em;
     width: 80%;
@@ -756,11 +763,11 @@ footer .copyright {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 30%;
+    width: 33%;
   }
 
   .form-description p {
-    font-size: 1.125em;
+    font-size: 1.2em;
   }
 
   /*Features*/
@@ -792,14 +799,24 @@ footer .copyright {
     padding-bottom: 37.5%;
     }
    
-   .mission h2,
-   .contact-section .content-wrapper h2 {
-      width: 95%;
-      font-size: 3em;
+   .mission h2 {
+     margin-bottom: 5px;
    }
 
-   .contact-content h4 {
+   .mission-content{
+     padding-top: 5px;
+   }
+   
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+      width: 95%;
+      font-size: 2.9em;
+      margin-bottom: 15px;
+   }
+
+   .contact h4{
     font-size: 1.875em;
+    margin-bottom: 18px;
   }
 
    /* ==========================================================================
@@ -809,11 +826,15 @@ footer .copyright {
     width: 100%;
     font-size: 3em;
   }
-    
-  .faq h4,
+
+  .faq h4
+  {
+    font-size: 1.2em;
+  }
+
   .faq p {
-      font-size: 1.125em;
-      line-height: 1;
+    font-size: 1.125em;
+    line-height: 1;
   }
 }
 
