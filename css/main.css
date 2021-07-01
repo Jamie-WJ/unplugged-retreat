@@ -222,6 +222,14 @@ footer .contact {
   margin-bottom: 50px;
 }
 
+footer .contact h4, .social h4{
+  font-size: 1.4em;
+}
+
+footer .contact p{
+  font-size: 1.125em;
+}
+
 footer .social-icons {
   display: flex;
   justify-content: space-around;
@@ -248,9 +256,19 @@ footer .copyright{
   margin: 20px 0;
 }
 
+
 /*----------------Mobile Styles-Homepage-----------------*/
 
+header nav ul{
+  padding-left: 0;
+}
+
 /*Hero Area*/
+
+.hero-area .content-wrapper{
+  margin-top: 30px;
+}
+
 .hero-area{
   background: url(../img/hero-img.jpg) center no-repeat #333;
   background-size: cover;
@@ -262,12 +280,19 @@ footer .copyright{
 
 .hero-area h1{
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
-  font-size: 2.25em;
-  line-height: 1.2; 
+  font-size: 2.5em;
+  line-height: 1.25; 
   font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 20px;
  }
 
 /*Aside*/
+
+aside .content-wrapper{
+  margin: 10px 0 60px 0;
+}
+
 aside {
   background-color: #527158;
   display: flex;
@@ -278,6 +303,14 @@ aside {
 
 aside .form {
   margin-top: 30px;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.form-description p{
+  font-size: 1em;
 }
  
 input[type=text] {
@@ -304,6 +337,10 @@ input[type=button] {
 
 /*Features*/
 
+.features .content-wrapper {
+  margin: 30px 0 30px 0;
+}
+
 .features {
   background: url(../img/features-img.jpg) center no-repeat #333;
   background-size: cover;
@@ -313,7 +350,8 @@ input[type=button] {
 }
 
 .features h2 {
-  margin-bottom: 60px;
+  font-size: 2.25em;
+  margin-bottom: 20px;
 }
 
 .features article {
@@ -334,6 +372,7 @@ margin: 30px 0;
 }
 
 .features p {
+  font-size: 1em;
   text-align: center;
   margin: 0;
 }
@@ -348,6 +387,7 @@ margin: 30px 0;
 }
 
 .reviews h2 {
+  font-size: 2.25em;
   margin-bottom: 40px;
   line-height: 1;
 }
@@ -357,9 +397,16 @@ margin: 30px 0;
   margin: 20px 0;
 }
 
+.reviews p {
+  font-size: 1em;
+}
+
 /* ==========================================================================
    About Page
    ========================================================================== */
+.mission .content-wrapper{
+  margin-top: 25px;
+}
 
 .mission{
   background-color: #527158;
@@ -367,6 +414,10 @@ margin: 30px 0;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+}
+
+.mission h2, .contact-section h2 {
+  font-size: 2.20em;
 }
 
 .map figure {
@@ -391,6 +442,10 @@ margin: 30px 0;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+}
+
+.contact-section .content-wrapper {
+  margin-top: 30px;
 }
 
 .contact-content p {
@@ -418,6 +473,7 @@ margin: 30px 0;
 }
 
 .faq h2 {
+  font-size: 2.25em;
   margin-bottom: 40px;
   line-height: 1;
 }
@@ -427,9 +483,13 @@ margin: 30px 0;
 }
 
 .faq-content h4{
-  line-height: 1.333;
+  font-size: 1.4em;
+  line-height: 1.5;
 }
 
+.faq-content p{
+  font-size: 1em;
+}
 
 /* ==========================================================================
    Helper classes
@@ -561,6 +621,10 @@ margin: 30px 0;
 
   header nav ul {
     justify-content: space-between; 
+  }
+
+  header nav ul li {
+    padding-left: 30px;
   }
 
   .header-divider {
