@@ -754,7 +754,7 @@ footer .copyright {
 }
 
 .map figure {
-  padding-bottom: 45.5%;
+  padding-bottom: 45.5%; 
 }
 
 .contact-section .content-wrapper h2 {
@@ -878,9 +878,7 @@ footer .copyright {
   /* ==========================================================================
    About  Page
    ========================================================================== */
-   .map figure {
-    padding-bottom: 37.5%;
-    }
+
    
    .mission h2 {
      margin-bottom: 5px;
@@ -896,6 +894,10 @@ footer .copyright {
       font-size: 2.9em;
       margin-bottom: 15px;
    }
+
+   .map figure {
+    padding-bottom: 37.5%; 
+  }
 
    .contact h4{
     font-size: 1.875em;
