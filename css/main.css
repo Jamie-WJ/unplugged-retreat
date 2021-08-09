@@ -189,9 +189,9 @@ header nav {
   font-weight: 700;
   text-transform: uppercase;
   display: flex;
-  flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav ul {
@@ -223,7 +223,7 @@ footer .contact {
 }
 
 footer .contact h4, .social h4{
-  font-size: 1.4em;
+  font-size: 1.875em;
 }
 
 footer .contact p{
@@ -242,7 +242,7 @@ footer .social-icons p{
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  margin-left: 25px;
+  margin-left: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -306,7 +306,7 @@ aside .form {
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.875em;
 }
 
 .form-description p{
@@ -726,8 +726,8 @@ footer .contact {
   margin-bottom: 0;
 }
 
-footer h4 {
-  font-size: 1.5em;
+footer h3, h4 {
+  font-size: 1.875em;
   margin-bottom: 40px;
 }
 
@@ -806,7 +806,7 @@ footer .copyright {
 
   .content-wrapper {
     max-width: 960px;
-    margin-top: 40px;
+    margin-top: 100px 0 100px 0;
   }
 
   h2 {
@@ -826,11 +826,12 @@ footer .copyright {
     /*Hero Area*/
 
   .hero-area {
-    min-height: 680px;
+    min-height: 690px;
     }
 
 
   .hero-area h1 {
+    margin-top: 70px;
     font-size: 3.75em;
     width: 80%;
   }
@@ -845,11 +846,20 @@ footer .copyright {
     width: 33%;
   }
 
-  .form-description p {
+  aside h3{
+    font-size: 1.95em;
+  }
+  
+ .form-description p {
     font-size: 1.2em;
   }
 
   /*Features*/
+
+  .features .content-wrapper {
+  margin: 100px 0 100px 0;
+  }
+
   .features h2{
     width: 90%;
   }
@@ -871,37 +881,41 @@ footer .copyright {
     padding-bottom: 50px;
   }
 
-  footer h4 {
-    font-size: 1.875em;
-  }
 
   /* ==========================================================================
-   About  Page
+   About  Page 
    ========================================================================== */
 
-   
    .mission h2 {
-     margin-bottom: 5px;
+    width: 95%;
+    font-size: 3em;
+    margin-bottom: 15px;
    }
 
-   .mission-content{
-     padding-top: 5px;
+  .contact-section{
+    padding: 80px 0 80px 0;
    }
    
-  .mission h2,
   .contact-section .content-wrapper h2 {
-      width: 95%;
-      font-size: 2.9em;
-      margin-bottom: 15px;
+      width: 100%;
+       font-size: 3em;
+   }
+
+  .contact-content h4 {
+      font-size: 1.875em;
+   }
+
+   .contact-content p {
+      font-size: 1.3em;
+      line-height: 1.333;
    }
 
    .map figure {
     padding-bottom: 37.5%; 
   }
 
-   .contact h4{
-    font-size: 1.875em;
-    margin-bottom: 18px;
+  footer .contact h4, .social h4 {
+    font-size: 2.25em;
   }
 
    /* ==========================================================================
@@ -912,16 +926,15 @@ footer .copyright {
     font-size: 3em;
   }
 
-  .faq h4
-  {
-    font-size: 1.2em;
-  }
-
-  .faq p {
+  .faq p, .faq-content h4 {
     font-size: 1.125em;
     line-height: 1;
-  }
+ }
+
+  .footer-content .contact h4, .social h4 {
+  font-size: 2em;
 }
+ }
 
 /* ==========================================================================
    Print styles.
