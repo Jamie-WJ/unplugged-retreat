@@ -242,7 +242,7 @@ footer .social-icons p{
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  margin-left: 35px;
+  margin-left: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -306,11 +306,11 @@ aside .form {
 }
 
 h3 {
-  font-size: 1.875em;
+  font-size: 1.4em;
 }
 
 .form-description p{
-  font-size: 1em;
+  font-size: .9em;
 }
  
 input[type=text] {
@@ -350,7 +350,7 @@ input[type=button] {
 }
 
 .features h2 {
-  font-size: 2.25em;
+  font-size: 2em;
   margin-bottom: 20px;
 }
 
@@ -372,7 +372,7 @@ margin: 30px 0;
 }
 
 .features p {
-  font-size: .85em;
+  font-size: .925em;
   text-align: center;
   margin: 0;
 }
@@ -387,7 +387,7 @@ margin: 30px 0;
 }
 
 .reviews h2 {
-  font-size: 2.25em;
+  font-size: 2.125em;
   margin-bottom: 40px;
   line-height: 1;
 }
@@ -395,10 +395,17 @@ margin: 30px 0;
 .reviews h3{
   width: 55%;
   margin: 20px 0;
+  font-size: 1.2em;
 }
 
 .reviews p {
   font-size: 1em;
+}
+
+/*Footer*/
+
+footer .contact h4, .social h4{
+  font-size: 1.3em;
 }
 
 /* ==========================================================================
@@ -417,7 +424,7 @@ margin: 30px 0;
 }
 
 .mission h2 {
-  font-size: 2.5em;
+  font-size: 1.95em;
 }
 
 .map figure {
@@ -445,12 +452,17 @@ margin: 30px 0;
 }
 
 .contact-section .content-wrapper {
-  margin-top: 0px;
+  margin: 30px 0 50px 0;
 }
 
 .contact-section h2 {
-  font-size: 2.25em;
+  font-size: 1.95em;
 }
+
+.contact-content h4 {
+  margin-bottom: 10px;
+}
+
 
 .contact-content p {
   margin: 0;
@@ -487,7 +499,7 @@ margin: 30px 0;
 }
 
 .faq-content h4{
-  font-size: 1.4em;
+  font-size: 1.25em;
   line-height: 1.5;
 }
 
@@ -638,7 +650,7 @@ margin: 30px 0;
   /* Hero Area */
 
   .hero-area {
-    min-height: 600px;
+    min-height: 400px;
   }
 
   .hero-area h1 {
@@ -667,7 +679,7 @@ margin: 30px 0;
   }
   
   .form-description p{
-    font-size: .875em;
+    font-size: 1em;
   }
 
 
@@ -749,6 +761,11 @@ footer .copyright {
   align-items: center;
   padding-top: 20px;
 }
+
+.mission h2{
+  font-size: 2.35em;
+}
+
 .mission-content p {
   width: 45%;
 }
@@ -759,6 +776,7 @@ footer .copyright {
 
 .contact-section .content-wrapper h2 {
   width: 80%;
+  margin-top: 100px;
 }
 
 .contact-content {
@@ -914,8 +932,8 @@ footer .copyright {
     padding-bottom: 37.5%; 
   }
 
-  footer .contact h4, .social h4 {
-    font-size: 2.25em;
+  .footer-content .contact h4, .social h4 {
+    font-size: 1.9em;
   }
 
    /* ==========================================================================
@@ -932,7 +950,7 @@ footer .copyright {
  }
 
   .footer-content .contact h4, .social h4 {
-  font-size: 2em;
+  font-size: 1.9em;
 }
  }
 
