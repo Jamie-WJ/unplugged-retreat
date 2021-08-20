@@ -272,7 +272,7 @@ header nav ul{
 .hero-area{
   background: url(../img/hero-img.jpg) center no-repeat #333;
   background-size: cover;
-  min-height: 500px;
+  min-height: 600px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -404,8 +404,9 @@ margin: 30px 0;
 
 /*Footer*/
 
-footer .contact h4, .social h4{
-  font-size: 1.3em;
+footer h3, h4 {
+  font-size: 1.875em;
+  margin-bottom: 40px;
 }
 
 /* ==========================================================================
@@ -650,7 +651,7 @@ footer .contact h4, .social h4{
   /* Hero Area */
 
   .hero-area {
-    min-height: 400px;
+    min-height: 500px;
   }
 
   .hero-area h1 {
@@ -738,11 +739,6 @@ footer .contact {
   margin-bottom: 0;
 }
 
-footer h3, h4 {
-  font-size: 1.875em;
-  margin-bottom: 40px;
-}
-
 footer p {
     line-height: 1.285;
 }
@@ -776,7 +772,10 @@ footer .copyright {
 
 .contact-section .content-wrapper h2 {
   width: 80%;
-  margin-top: 100px;
+}
+
+.contact-section {
+  padding: 30px 0 30px 0;
 }
 
 .contact-content {
@@ -806,11 +805,11 @@ footer .copyright {
   }
 
   .faq h4 {
-    font-size: .855em;
+    font-size: .975em;
   }
 
   .faq p {
-    font-size: .8em;
+    font-size: .875em;
     line-height: 1.125;
   }
 }
@@ -824,7 +823,7 @@ footer .copyright {
 
   .content-wrapper {
     max-width: 960px;
-    margin-top: 100px 0 100px 0;
+    margin-top: 80px 0 80px 0;
   }
 
   h2 {
@@ -844,12 +843,12 @@ footer .copyright {
     /*Hero Area*/
 
   .hero-area {
-    min-height: 690px;
+    min-height: 750px;
     }
 
 
   .hero-area h1 {
-    margin-top: 70px;
+    margin-top: 30px;
     font-size: 3.75em;
     width: 80%;
   }
@@ -899,6 +898,12 @@ footer .copyright {
     padding-bottom: 50px;
   }
 
+  /*Footer*/
+
+  footer h3, h4 {
+    font-size: 1.875em;
+    margin-bottom: 40px;
+  }
 
   /* ==========================================================================
    About  Page 
@@ -916,11 +921,11 @@ footer .copyright {
    
   .contact-section .content-wrapper h2 {
       width: 100%;
-       font-size: 3em;
+       font-size: 2.5em;
    }
 
   .contact-content h4 {
-      font-size: 1.875em;
+      font-size: 1.75em;
    }
 
    .contact-content p {
@@ -932,10 +937,6 @@ footer .copyright {
     padding-bottom: 37.5%; 
   }
 
-  .footer-content .contact h4, .social h4 {
-    font-size: 1.9em;
-  }
-
    /* ==========================================================================
   FAQ Page
   ========================================================================== */
@@ -944,14 +945,20 @@ footer .copyright {
     font-size: 3em;
   }
 
-  .faq p, .faq-content h4 {
-    font-size: 1.125em;
+  .faq-content h4 {
+    font-size: 1.35em;
     line-height: 1;
  }
 
-  .footer-content .contact h4, .social h4 {
-  font-size: 1.9em;
+ .faq p{
+  font-size: 1em;
+  line-height: 1;
 }
+
+.footer-content .contact h4, .social h4 {
+  font-size: 1.6em;
+}
+
  }
 
 /* ==========================================================================
